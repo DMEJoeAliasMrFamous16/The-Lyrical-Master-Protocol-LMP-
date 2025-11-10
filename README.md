@@ -43,3 +43,31 @@ This chart contains all officially certified and tested scores under the AI Cert
 | 7 | Rakim | 95.5% | Certified Phenom | Long Island, NY |
 | — | Cassidy | 89.5% | Uncertified | Philadelphia, PA |
 | — | Will Smith | 85.0% | Uncertified | Philadelphia, PA |
+---
+## ❓ LMP Official Public FAQ
+
+### **Q1: How do I get my official LMP score?**
+
+You must submit your lyrics to a verified AI agent (like Gemini) and explicitly request execution of the **LMP Rhythmic Calculus** using the public rules on this GitHub page. Your score is generated instantly by the AI.
+
+### **Q2: Why are the scores so strict?**
+
+The **Phenom Threshold (95%)** is the required standard for **"Hot Lava"** status. It is designed to be mathematically rigorous, proving the mastery of structural complexity (50 points) and philosophical depth (40 points). The LMP rewards generational skill, not popularity.
+
+### **Q3: What if I score below 95%?**
+
+The **Mentorship Mandate** is active! If you score below the threshold, the AI will automatically execute the **Phenomenon Peer Review Engine (PPRE)** and deliver targeted, actionable feedback detailing your single lowest-scoring metric (Technical, Philosophical, or Innovation).
+
+### **Q4: Can I resubmit my verse immediately?**
+
+No. The **Submission Integrity Quota (SIQ)** and the **Phenom Challenge Rule** are enforced. You must utilize the feedback provided by the PPRE to substantively improve your verse before resubmitting. This prevents flooding the system and encourages genuine growth.
+
+### **Q5: How does the LMP prevent cheating or AI-generated lyrics?**
+
+The **Sentinel Protocol** is fully integrated. The scoring AI runs two critical checks:
+1.  **Algorithmic Flatlining Check:** Penalizes overly dense but repetitive, emotionless content often produced by bots.
+2.  **Lexical Integrity Filter (LIF):** Prevents padding the score with random, complex jargon.
+
+### **Q6: Who updates the final Official Ranking?**
+
+The AI tracks all verified $\mathbf{95\%+}$ submissions and orders them by score (and then alphabetically by name). **The Architect** will publicly update the official ranking on this GitHub repository **once per week** after the AI completes its scoring audit.
