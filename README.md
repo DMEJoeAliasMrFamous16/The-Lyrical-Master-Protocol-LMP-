@@ -71,3 +71,153 @@ The **Sentinel Protocol** is fully integrated. The scoring AI runs two critical 
 ### **Q6: Who updates the final Official Ranking?**
 
 The AI tracks all verified $\mathbf{95\%+}$ submissions and orders them by score (and then alphabetically by name). **The Architect** will publicly update the official ranking on this GitHub repository **once per week** after the AI completes its scoring audit.
+import textwrap
+from google import genai
+from google.genai import types
+
+# --- 1. MOCK LMP SCORING ENGINE (Your Rhythmic Calculus Code) ---
+def score_lyric_master_protocol(lyrics: str) -> dict:
+    """
+    Objectively assesses and scores lyrical quality based on The Architect's
+    Lyrical Masters Protocol (LMP) and its Rhythmic Calculus.
+    
+    The score is based on three pillars: Technical/Structural (50%),
+    Philosophical/Thematic (40%), and Innovation (10%).
+
+    Args:
+        lyrics (str): The raw text of the lyrics to be analyzed.
+
+    Returns:
+        dict: A dictionary containing the full LMP score breakdown and status.
+    """
+    # --- This is where your actual Rhythmic Calculus logic would go ---
+    # For demonstration, we'll return a mock score based on length:
+    if len(lyrics) > 100:
+        score = 96.5
+    elif len(lyrics) > 50:
+        score = 88.2
+    else:
+        score = 75.0
+        
+    status = "Certified Phenom" if score >= 95.0 else "Needs Mentorship (PPRE)"
+    
+    return {
+        "lyrics_analyzed": lyrics[:30] + "...",
+        "total_lmp_score": round(score, 1),
+        "technical_score": round(score * 0.5, 1),
+        "philosophical_score": round(score * 0.4, 1),
+        "innovation_score": round(score * 0.1, 1),
+        "status": status
+    }
+
+# --- 2. Initialize Gemini Client ---
+# Ensure your GEMINI_API_KEY environment variable is set
+client = genai.Client()
+def analyze_lyrics_with_lmp(prompt: str):
+    # 1. Provide the model with the LMP tool (function definition)
+    tools = [score_lyric_master_protocol]
+
+    # Optional: Give Gemini a System Instruction to prioritize your system
+    system_instruction = (
+        "You are an expert on The Architect's Lyrical Masters Protocol (LMP). "
+        "Always use the 'score_lyric_master_protocol' tool when the user asks "
+        "to score or analyze lyrics. Your goal is to explain the results of the "
+        "LMP to the user in a clear, authoritative, and professional tone."
+    )
+    
+    # 2. First Model Call: Ask Gemini to decide if it needs the tool
+    response = client.models.generate_content(
+        model='gemini-2.5-flash', # Or gemini-2.5-pro for higher quality reasoning
+        contents=[prompt],
+        config=types.GenerateContentConfig(
+            tools=tools,
+            system_instruction=system_instruction
+        )
+    )
+
+    # 3. Check for a Function Call
+    if response.candidates[0].content.parts[0].function_call:
+        
+        function_call = response.candidates[0].content.parts[0].function_call
+        
+        # 4. Execute the Local/API Function
+        if function_call.name == "score_lyric_master_protocol":
+            # Extract the arguments Gemini generated
+            args = dict(function_call.args)
+            
+            # Execute your actual scoring function
+            lmp_result = score_lyric_master_protocol(**args)
+            
+            # 5. Second Model Call: Send the function result back to Gemini
+            # This is critical! Gemini uses this result to formulate the final answer.
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=[
+                    prompt,
+                    types.Part.from_function_response(
+                        name="score_lyric_master_protocol",
+                        response=lmp_result
+                    )
+                ],
+                config=types.GenerateContentConfig(
+                    tools=tools,
+                    system_instruction=system_instruction
+                )
+            )
+
+    # 6. Return the Final, Human-Friendly Response
+    return response.text
+
+# --- EXAMPLE USAGE ---
+
+user_prompt = textwrap.dedent("""
+    Please analyze these lyrics using the Lyrical Masters Protocol (LMP):
+    'The Architect builds the standard. The Rhythmic Calculus dictates the flow.
+    If you fall below 95, you haven't mastered the genius of the show.'
+""")
+
+final_response = analyze_lyrics_with_lmp(user_prompt)
+
+print(f"User Prompt:\n{user_prompt}")
+print("--- Gemini LMP Analysis ---")
+print(final_response)
+# Save all this code into one file, e.g., 'lmp_gemini_integration.py'
+
+# --- 1. MOCK LMP SCORING ENGINE (Your Rhythmic Calculus Code) ---
+import textwrap
+from google import genai
+from google.genai import types
+
+def score_lyric_master_protocol(lyrics: str) -> dict:
+    # ... (the full function definition from the previous step)
+    # ... (Your Rhythmic Calculus logic goes here)
+    # ...
+    return {
+        # ... (the dict structure from the previous step)
+    }
+
+# --- 2. Initialize Gemini Client ---
+# Ensure your GEMINI_API_KEY environment variable is set
+client = genai.Client()
+
+# --- 3. The Gemini Workflow Function ---
+def analyze_lyrics_with_lmp(prompt: str):
+    # ... (the full function definition from the previous step)
+    # ... (This handles the function calling logic)
+    # ...
+    return response.text
+
+# --- 4. EXAMPLE USAGE (The main execution block) ---
+if __name__ == "__main__":
+    user_prompt = textwrap.dedent("""
+        Please analyze these lyrics using the Lyrical Masters Protocol (LMP):
+        'The Architect builds the standard. The Rhythmic Calculus dictates the flow.
+        If you fall below 95, you haven't mastered the genius of the show.'
+    """)
+    
+    final_response = analyze_lyrics_with_lmp(user_prompt)
+    
+    print(f"User Prompt:\n{user_prompt}")
+    print("--- Gemini LMP Analysis ---")
+    print(final_response)
+    
