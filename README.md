@@ -102,80 +102,62 @@ docker run --rm lmp:canonical python lmp_reference.py
 
 ---
 
-🧩 Core Equations Overview
+## 🧩 Core Equations Overview
 
-At the heart of The Lyrical Master Protocol (LMP) lies a framework of mathematical linguistics — a bridge between rhythm and logic.
+At the heart of **The Lyrical Master Protocol (LMP)** lies a framework of *mathematical linguistics* — a bridge between rhythm and logic.  
 Each lyric is decomposed into quantifiable layers that represent its creative DNA:
 
-Symbol	Domain	Description
+| Symbol | Domain | Description |
+|:-------:|:---------------------|:--------------------------------------------------|
+| **T** | Technical Precision | Measures lyrical architecture — rhyme symmetry, phonetic cadence, and bar consistency. |
+| **P** | Philosophical Depth | Evaluates conceptual complexity and abstract meaning patterns through lexical entropy. |
+| **I** | Innovation Constant | Detects novelty by comparing semantic variance against established language norms. |
+| **B** | Harmonic Balance | Analyzes rhythmic flow and internal cadence consistency through frequency patterning. |
+| **Σ(LMP)** | Total Lyrical Signature | Weighted aggregation producing a normalized score of artistic mastery. |
 
-T	Technical Precision	Measures lyrical architecture — rhyme symmetry, phonetic cadence, and bar consistency.
-P	Philosophical Depth	Evaluates conceptual complexity and abstract meaning patterns through lexical entropy.
-I	Innovation Constant	Detects novelty by comparing semantic variance against established language norms.
-B	Harmonic Balance	Analyzes rhythmic flow and internal cadence consistency through frequency patterning.
-Σ(LMP)	Total Lyrical Signature	Weighted aggregation producing a normalized score of artistic mastery.
-
-
-Interpretation Principle:
-Each song, verse, or poetic construct is reduced to a harmonic equation — a balance between chaos and order.
+**Interpretation Principle:**  
+Each song, verse, or poetic construct is reduced to a harmonic equation — a language of balance between chaos and order.  
 This mathematical lens ensures no cultural, commercial, or personal bias can distort creative truth.
 
-
 ---
 
-📘 Canonical Release Note — Scientific Edition (v1.0-canonical)
+## 📘 Canonical Release Note — Scientific Edition (v1.0-canonical)
 
-Codename: Project LMP | “The Quantization of Artistry”
-Release Date: 2025
-Principal Architect: Derek R. Moore Jr.
-Collaborating AI Systems: ChatGPT (OpenAI) & Gemini (Google DeepMind)
+**Codename:** Project LMP | *“The Quantization of Artistry”*  
+**Release Date:** 2025  
+**Principal Architect:** Derek R. Moore Jr.  
+**Collaborating AI Systems:** ChatGPT (OpenAI) & Gemini (Google DeepMind)
 
-Abstract
+### Abstract
 
-The Canonical Edition of The Lyrical Master Protocol represents the first public, open-source deployment of a fully AI-verifiable lyrical analysis model.
+The Canonical Edition of The Lyrical Master Protocol represents the first public and open-source deployment of a fully AI-verifiable lyrical analysis model.  
 It mathematically decodes human creativity through rhythm calculus and symbolic structure, quantifying emotion into measurable order.
 
-Methodology Summary
+### Methodology Summary
 
-1. Input Normalization: Each lyric is parsed into its phonetic, syntactic, and semantic matrices.
+1. **Input Normalization:** Each lyric is parsed into its phonetic, syntactic, and semantic matrices.  
+2. **Rhythmic Calculus Engine:** Applies deterministic rhythmic wave-mapping to evaluate temporal flow.  
+3. **Philosophical Depth Index (P):** Uses entropy-based logic weighting to detect meaning density.  
+4. **Innovation Gradient (I):** Measures creative deviation using an adaptive linguistic distance algorithm.  
+5. **Balance Harmonic (B):** Normalizes structure-to-variance ratio ensuring internal coherence.  
+6. **Σ(LMP):** Final summation yields a universal creative signature independent of genre or language.
 
+### Significance
 
-2. Rhythmic Calculus Engine: Applies deterministic rhythmic wave-mapping to evaluate temporal flow.
+This release establishes a proof-of-concept for creativity as quantifiable science.  
+LMP transforms subjective evaluation into a repeatable mathematical construct — giving all artists, regardless of fame or access, equal opportunity to be recognized for their true structural genius.
 
-
-3. Philosophical Depth Index (P): Uses entropy-based logic weighting to detect meaning density.
-
-
-4. Innovation Gradient (I): Measures creative deviation using adaptive linguistic distance algorithms.
-
-
-5. Balance Harmonic (B): Normalizes structure-to-variance ratio ensuring internal coherence.
-
-
-6. Σ(LMP): Final summation yields a universal creative signature independent of genre or language.
-
-
-
-Significance
-
-This release establishes a proof-of-concept for creativity as quantifiable science.
-LMP transforms subjective evaluation into a repeatable mathematical construct — giving all artists equal opportunity to be recognized for their true structural genius.
-
-> “When art meets equation, truth becomes measurable.” — The Architect
-
-
-
+> “When art meets equation, truth becomes measurable.” — *The Architect*
 
 ---
 
-⚖️ License & Integrity
+## ⚖️ License & Integrity
 
-License: MIT (Open & Free for All)
+**License:** MIT (Open & Free for All)  
 
-Integrity Clause:
-All evaluations under The Lyrical Master Protocol are performed exclusively by AI.
-No human intervention, bias, or post-modification of score data is permitted.
+**Integrity Clause:**  
+All evaluations under The Lyrical Master Protocol are performed exclusively by AI.  
+No human intervention, bias, or post-modification of score data is permitted.  
 This ensures that creative merit remains pure, verifiable, and eternal.
-
 
 ---
