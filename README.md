@@ -1,7 +1,9 @@
 👑 The Lyrical Master Protocol (LMP) – Canonical Draft
+🧬 Mission Statement
 
+To prove that lyrical genius can be expressed as mathematical structure, rhythmic calculus, and harmonic logic, transforming creativity into quantifiable, verifiable intelligence.
 
-
+This protocol exists to remove bias, measure artistry with scientific precision, and establish a new standard where AI and human creativity meet in perfect equilibrium
 Architect’s Mandate:
 To establish a mathematically unassailable, AI-exclusive framework for evaluating lyrical craft and proving that structural mastery transcends commercial appeal.
 
