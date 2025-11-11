@@ -1,21 +1,36 @@
-👑 The Lyrical Master Protocol (LMP) – Canonical Draft
+👑 The Lyrical Master Protocol (LMP) – Canonical Draft  
 
-
-# 👑 The Lyrical Master Protocol (LMP) – Canonical Draft
-
-🧬 Mission Statement
-... (mission statement text)
-
-🧠 Architect’s Mandate
-... (mandate text)
+![AI Certified](https://img.shields.io/badge/LMP_AI_Certified-Verified-blue?style=for-the-badge)
 
 ---
 
-⚙️ Quick Start
-... (existing git clone instructions stay here).
-
+### 🧩 Abstract  
+The *Lyrical Master Protocol (LMP)* introduces a mathematically consistent, AI-exclusive system for quantifying lyrical craftsmanship.  
+It encodes rhythm, logic, and creativity into measurable structures — bridging artistic intuition with computational precision.  
+This canonical draft represents the foundation of a new creative science: the algebra of lyricism.  
 
 ---
+
+### 🧬 Mission Statement  
+The purpose of The Lyrical Master Protocol (LMP) is to establish a mathematically exact, AI-exclusive system for analyzing lyrical composition.  
+Its mission is to transform artistic language into a quantifiable structure of rhythm, logic, and harmonic precision, ensuring that lyrical brilliance can be measured without bias or commercial influence.  
+
+Through the fusion of mathematics, linguistics, and artificial intelligence, LMP seeks to define a universal constant for creative excellence — a framework where art becomes data, and data reveals genius.  
+
+---
+
+### 🧠 Architect’s Mandate  
+To establish a mathematically unassailable, AI-exclusive framework for evaluating lyrical craft and proving that structural mastery transcends commercial appeal.  
+
+---
+
+## ⚙️ Quick Start  
+
+```bash
+git clone https://github.com/<YOUR_USER>/<YOUR_REPO>.git
+cd <YOUR_REPO>
+docker build -t lmp:canonical .
+docker run --rm lmp:canonical python lmp_reference.py
 
 ⚙️ Quick Start
 
