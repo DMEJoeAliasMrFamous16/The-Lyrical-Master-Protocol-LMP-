@@ -73,3 +73,11 @@ git clone https://github.com/<YOUR_USER>/<YOUR_REPO>.git
 cd <YOUR_REPO>
 docker build -t lmp:canonical .
 docker run --rm lmp:canonical python lmp_reference.py
+![AI Certified](https://img.shields.io/badge/LMP_AI_Certified-Verified-blue?style=for-the-badge)
+
+---
+
+## 🧭 About the Architect
+The Lyrical Master Protocol (LMP) is an open, AI-exclusive scoring system designed to identify true lyrical and structural genius through mathematics — not bias.  
+It is free for all artists, creators, and developers to use under the MIT License.  
+Integrity, fairness, and precision are permanently locked by design.
