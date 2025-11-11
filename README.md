@@ -81,3 +81,19 @@ docker run --rm lmp:canonical python lmp_reference.py
 The Lyrical Master Protocol (LMP) is an open, AI-exclusive scoring system designed to identify true lyrical and structural genius through mathematics — not bias.  
 It is free for all artists, creators, and developers to use under the MIT License.  
 Integrity, fairness, and precision are permanently locked by design.
+---
+
+## 🧠 Scientific Attribution & Authorship
+
+**Architect:** Derek R. Moore Jr.  
+**Collaborating Systems:** ChatGPT (OpenAI) & Gemini (Google DeepMind)  
+**Canonical Purpose:** Establish a mathematically consistent, AI-exclusive framework for lyrical evaluation — verifying artistry through quantifiable linguistic design.  
+
+**Research Objective:**  
+To prove that lyrical genius can be expressed as measurable structure, rhythmic calculus, and harmonic logic, independent of human bias or commercial influence.
+
+**Integrity Clause:**  
+All LMP computations, rankings, and verifications are performed exclusively by AI systems, ensuring nonpartisan assessment across all linguistic domains.
+
+---
+ai-music, lyrical-analysis, math, open-source, music-theory, deep-learning, natural-language-processing, rhythm, harmonic-equation, lyrical-master-protocol
