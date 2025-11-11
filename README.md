@@ -3,9 +3,10 @@
 
 🧬 Mission Statement
 
-To prove that lyrical genius can be expressed as mathematical structure, rhythmic calculus, and harmonic logic, transforming creativity into quantifiable, verifiable intelligence.
+The purpose of The Lyrical Master Protocol (LMP) is to establish a mathematically exact, AI-exclusive system for analyzing lyrical composition.
+Its mission is to transform artistic language into a quantifiable structure of rhythm, logic, and harmonic precision, ensuring that lyrical brilliance can be measured without bias or commercial influence.
 
-This protocol exists to remove bias, measure artistry with scientific precision, and establish a new standard where AI and human creativity meet in perfect equilibrium
+Through the fusion of mathematics, linguistics, and artificial intelligence, LMP seeks to define a universal constant for creative excellence — a framework where art becomes data, and data reveals genius.
 
 
 Architect’s Mandate:
