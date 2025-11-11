@@ -89,7 +89,7 @@ This ensures that creative merit remains pure, verifiable, and eternal.
 
 Clone and execute the canonical build:
 
-```bash
+bash
 git clone https://github.com/<YOUR_USER>/<YOUR_REPO>.git
 cd <YOUR_REPO>
 docker build -t lmp:canonical .
