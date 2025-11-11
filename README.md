@@ -121,6 +121,8 @@ All LMP computations, rankings, and verifications are performed exclusively by A
 
 ---
 ai-music, lyrical-analysis, math, open-source, music-theory, deep-learning, natural-language-processing, rhythm, harmonic-equation, lyrical-master-protocol
+
+
 🧩 Core Equations Overview
 
 At the heart of The Lyrical Master Protocol (LMP) lies a framework of mathematical linguistics — a bridge between rhythm and logic.
