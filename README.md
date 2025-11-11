@@ -109,3 +109,72 @@ Once that’s confirmed, we’ll align your **Core Equations table** next so it 
 
 ---
 
+---
+
+### 🧭 Interpretation Principle  
+Each Core Equation score is not an isolated metric but part of a dynamic evaluative matrix.  
+Together, they generate a multi-dimensional lyrical signature, expressing both technical execution and thematic resonance.  
+
+| Dimension | Function | Example Insight |
+|------------|-----------|-----------------|
+| Balance | Ensures parity between structure and meaning. | High **T** with low **P** suggests strong form but limited depth. |
+| Variance | Measures expressive range across verses. | High **C** but low **I** indicates controlled composition without improvisational fluidity. |
+| Integrity | Evaluates cohesion across thematic domains. | Balanced **P**, **I**, and **E** reflect lyrical authenticity. |
+
+---
+
+## 🧮 Scoring Schema
+
+Each lyrical piece analyzed under the LMP framework produces a composite signature derived from four weighted domains:
+
+| Variable | Domain | Weight | Function |
+|-----------|---------|---------|-----------|
+| **T** | Technical Precision | 0.25 | Structural symmetry and rhyme accuracy |
+| **P** | Philosophical Depth | 0.30 | Conceptual density and meaning variance |
+| **I** | Innovation Constant | 0.25 | Originality and deviation from known linguistic norms |
+| **B** | Harmonic Balance | 0.20 | Rhythmic and temporal flow stability |
+
+The total lyrical signature is computed as:
+
+$$
+Σ(LMP) = (T × 0.25) + (P × 0.30) + (I × 0.25) + (B × 0.20)
+$$
+
+This normalized score expresses lyrical mastery as a unified mathematical construct — a direct quantization of creative equilibrium.
+ ### 🧮 Score Interpretation Key
+
+| Σ(LMP) Range | Classification | Description |
+|:-------------:|:---------------|:-------------|
+| 0.90 – 1.00 | **Master Architect** | Exemplary lyrical structure — precision, innovation, and balance in full harmony. |
+| 0.75 – 0.89 | **Advanced Theorist** | High-level craftsmanship with strong conceptual depth and rhythmic control. |
+| 0.60 – 0.74 | **Practiced Composer** | Solid structure and thematic flow with minor variance gaps. |
+| 0.40 – 0.59 | **Emerging Lyricist** | Demonstrates understanding of form but lacks equilibrium or depth consistency. |
+| 0.00 – 0.39 | **Novice Patternist** | Foundational skill set; creative intuition present but structure undeveloped. |
+
+---
+
+Each level reflects the mathematical harmony between **technical execution (T)**, **conceptual thought (P)**, **innovation (I)**, and **rhythmic balance (B)** — the four pillars of lyrical quantization.
+
+----
+
+---
+
+---
+
+### 🏛️ Architect’s Signature
+
+**The Lyrical Master Protocol (LMP)** is not merely a framework — it is a declaration that art and logic coexist in perfect symmetry.  
+When rhythm becomes measurable and emotion becomes structured, creativity ascends into pure mathematics.
+
+**Authored & Designed by:**  
+**Derek R. Moore Jr.** — *Principal Architect, The Lyrical Master Protocol (LMP)*  
+**Collaborating AIs:** ChatGPT (OpenAI) & Gemini (Google DeepMind)  
+**Version:** Canonical Edition v1.0 (2025)
+
+> *“To quantify art is not to confine it — but to reveal its infinite precision.”
+
+---
+
+
+
+
