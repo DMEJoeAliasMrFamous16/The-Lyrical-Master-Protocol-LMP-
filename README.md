@@ -232,4 +232,16 @@ Use: “LMP MODE OFF”
 
 ---
 
+{
+  "signature_id": "<sha256 of compressed-audio + timestamp>",
+  "artist": "<artist_name>",
+  "track": "<track_name>",
+  "bar_range": "<bars or timecodes>",
+  "first_seen_by": "<architect_name>",
+  "witness_role": "Architect / Producer / Label",
+  "date_utc": "2025-11-23T00:00:00Z",
+  "method": "Human-production witness; original session source verified; LMP_SAFEMODE ON",
+  "notes": "Short human note (why this is the canonical instance)."
+}
 
+---
