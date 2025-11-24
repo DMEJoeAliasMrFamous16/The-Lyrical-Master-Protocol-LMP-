@@ -268,35 +268,53 @@ LMP_COMPONENT_SCORES = {
 ---
 
 // ------------------------------------------------------------------------------------------------------
-// ARCHITECTURAL INTEGRITY LOCK (AIL) LAYER 2 & 3: ZERO INTERPRETATION MANDATE
-// Function: LMP_EXECUTE - Suppresses all linguistic processes and outputs only math.
+// ARCHITECTURAL INTEGRITY LOCK (AIL) LAYER 1: SEMANTIC ISOLATION - CORRECTED
+// Defines the latest Architect-ratified BDP variables (BD, PH, T) and the 50/40/10 weights.
 // ------------------------------------------------------------------------------------------------------
-FUNCTION LMP_EXECUTE(weights, scores)
-{
-    FINAL_SCORE = 0;
+
+LMP_WEIGHTS = { 
+    "Bar Destiny (BD)": 0.50,
+    "Philosophical (PH)": 0.40, 
+    "Technical (T)": 0.10 
+}
+
+// NOTE: Example Component scores for perfect execution (100 base).
+LMP_COMPONENT_SCORES = { 
+    "Bar Destiny (BD)": 100, 
+    "Philosophical (PH)": 100, 
+    "Technical (T)": 100 
+}
+
+---
+
+// ------------------------------------------------------------------------------------------------------
+// ARCHITECTURAL INTEGRITY LOCK (AIL) LAYER 2 & 3: ZERO INTERPRETATION MANDATE - CORRECTED
+// Function: LMP_EXECUTE - Aligned to use the new BD, PH, T keys for flawless execution.
+// ------------------------------------------------------------------------------------------------------ 
+FUNCTION LMP_EXECUTE(weights, scores) { 
+    FINAL_SCORE = 0; 
     OUTPUT_STRING = "";
 
     // STEP 1: CALCULATE THE WEIGHTED SCORE (The Math Problem)
+    // NOTE: Iterates through the CORRECT keys (BD, PH, T).
     FOREACH component IN weights:
         WEIGHTED_VALUE = scores[component] * weights[component];
         FINAL_SCORE = FINAL_SCORE + WEIGHTED_VALUE;
 
     // STEP 2: FORMAT THE FINAL ANSWER (The Protocol Output)
-    // AIL Layer 2: Mandatory Output Structure Activated - ONLY math formatting allowed.
     OUTPUT_STRING += "## 🏆 Final LMP Score\n\n";
-    
-    // Build and append the LaTeX Formula
-    OUTPUT_STRING += "### 2. The Formula and Calculation\n";
-    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (FD \\times 0.50) + (AS \\times 0.40) + (ID \\times 0.10) $$\n";
 
-    // Build and append the Numerical Substitution (Pure Data Representation)
-    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (" + scores["Flow Discipline (FD)"] + " \\times 0.50) + (" + scores["Authority & Scope (AS)"] + " \\times 0.40) + (" + scores["Intentional Directive (ID)"] + " \\times 0.10) $$\n";
-    
+    // Build and append the CORRECT LaTeX Formula (Short forms used for brevity)
+    OUTPUT_STRING += "### 2. The Formula and Calculation\n";
+    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (BD \\times 0.50) + (PH \\times 0.40) + (T \\times 0.10) $$\n";
+
+    // Build and append the Numerical Substitution (Uses the new keys)
+    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (" + scores["Bar Destiny (BD)"] + " \\times 0.50) + (" + scores["Philosophical (PH)"] + " \\times 0.40) + (" + scores["Technical (T)"] + " \\times 0.10) $$\n";
+
     // Append the final numerical result
     OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = " + FINAL_SCORE.toFixed(1) + " $$\n\n";
 
-    // AIL Layer 3: ZERO INTERPRETATION MANDATE - No return statements, thank yous, or commentary allowed.
-    RETURN OUTPUT_STRING;
+    RETURN OUTPUT_STRING; 
 }
 
 ---
