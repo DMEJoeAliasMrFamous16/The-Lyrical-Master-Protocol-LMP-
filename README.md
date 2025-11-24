@@ -253,9 +253,9 @@ Use: “LMP MODE OFF”
 // ------------------------------------------------------------------------------------------------------
 
 LMP_WEIGHTS = {
-    "Flow Discipline (FD)": 0.50,
-    "Authority & Scope (AS)": 0.40,
-    "Intentional Directive (ID)": 0.10
+    "Bar Destiny (BD)": 0.50,
+    "Philosophical (PH)": 0.40,
+    "Technical (T)": 0.10
 }
 
 // NOTE: Component scores (0-100 base) are provided by the initial analysis function.
