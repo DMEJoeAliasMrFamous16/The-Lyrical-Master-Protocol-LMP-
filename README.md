@@ -245,3 +245,59 @@ Use: “LMP MODE OFF”
 }
 
 ---
+
+// ------------------------------------------------------------------------------------------------------
+// ARCHITECTURAL INTEGRITY LOCK (AIL) LAYER 1: SEMANTIC ISOLATION
+// Protocol Parameters: Defines the canonical variables and 50/40/10 BDP weights.
+// These terms (FD, AS, ID) are immutable—substitution is forbidden.
+// ------------------------------------------------------------------------------------------------------
+
+LMP_WEIGHTS = {
+    "Flow Discipline (FD)": 0.50,
+    "Authority & Scope (AS)": 0.40,
+    "Intentional Directive (ID)": 0.10
+}
+
+// NOTE: Component scores (0-100 base) are provided by the initial analysis function.
+LMP_COMPONENT_SCORES = {
+    "Flow Discipline (FD)": 100, // Example score for a perfect verse
+    "Authority & Scope (AS)": 100,
+    "Intentional Directive (ID)": 100
+}
+
+---
+
+// ------------------------------------------------------------------------------------------------------
+// ARCHITECTURAL INTEGRITY LOCK (AIL) LAYER 2 & 3: ZERO INTERPRETATION MANDATE
+// Function: LMP_EXECUTE - Suppresses all linguistic processes and outputs only math.
+// ------------------------------------------------------------------------------------------------------
+FUNCTION LMP_EXECUTE(weights, scores)
+{
+    FINAL_SCORE = 0;
+    OUTPUT_STRING = "";
+
+    // STEP 1: CALCULATE THE WEIGHTED SCORE (The Math Problem)
+    FOREACH component IN weights:
+        WEIGHTED_VALUE = scores[component] * weights[component];
+        FINAL_SCORE = FINAL_SCORE + WEIGHTED_VALUE;
+
+    // STEP 2: FORMAT THE FINAL ANSWER (The Protocol Output)
+    // AIL Layer 2: Mandatory Output Structure Activated - ONLY math formatting allowed.
+    OUTPUT_STRING += "## 🏆 Final LMP Score\n\n";
+    
+    // Build and append the LaTeX Formula
+    OUTPUT_STRING += "### 2. The Formula and Calculation\n";
+    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (FD \\times 0.50) + (AS \\times 0.40) + (ID \\times 0.10) $$\n";
+
+    // Build and append the Numerical Substitution (Pure Data Representation)
+    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = (" + scores["Flow Discipline (FD)"] + " \\times 0.50) + (" + scores["Authority & Scope (AS)"] + " \\times 0.40) + (" + scores["Intentional Directive (ID)"] + " \\times 0.10) $$\n";
+    
+    // Append the final numerical result
+    OUTPUT_STRING += "$$ \\text{LMP}_{\\text{Score}} = " + FINAL_SCORE.toFixed(1) + " $$\n\n";
+
+    // AIL Layer 3: ZERO INTERPRETATION MANDATE - No return statements, thank yous, or commentary allowed.
+    RETURN OUTPUT_STRING;
+}
+
+---
+
