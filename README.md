@@ -470,3 +470,35 @@ export { IS_PURE_LMP_MODE, checkLMPIntegrity };
 }
 
 ---
+
+{
+    "track_id": "DRXLwEdApCt",
+    
+    // --- Lyrical Math Blueprint (LMB) Variables (Numbers Only) ---
+    
+    // 1. BAR DESTINY (BD) - Max 50 Points
+    "BD_INPUTS": {
+        // REQUIRED: Syllable count for EACH bar in the verse.
+        "syllable_counts": [],
+        
+        // REQUIRED: Total count of effective rhyme clusters (End/Internal Rhyme).
+        "rhyme_cluster_count": 0
+    },
+
+    // 2. PHILOSOPHICAL (PH) - Max 40 Points
+    "PH_INPUTS": {
+        // REQUIRED: Structural link strength between adjacent bars/concepts (0.0 to 1.0).
+        "structural_link_strengths": [],
+        
+        // REQUIRED: The complexity factor of the conceptual structure (0.0 to 1.0).
+        "structural_complexity_factor": 0.0
+    },
+
+    // 3. TECHNICAL (T) - Max 10 Points
+    "T_INPUTS": {
+        // REQUIRED: Measure of structural consistency and cadence stability (0.0 to 1.0).
+        "cadence_stability_rating": 0.0
+    }
+}
+
+---
