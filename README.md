@@ -319,5 +319,45 @@ FUNCTION LMP_EXECUTE(weights, scores) {
 
 ---
 
+def run_LMP_and_Sentinel(lyrics):
+
+    # 1. LMP SCORE -------------------------------------------------------
+    score = LMP_score(lyrics)  
+    # returns: { BD: x, PH: y, T: z, TOTAL: n }
+
+    # 2. SENTINEL ORIGIN CHECK ------------------------------------------
+    sentinel = sentinel_check(lyrics)
+    # returns: { origin: "human" or "ai", confidence: 0.0-1.0 }
+
+    # 3. CERTIFICATION DECISION -----------------------------------------
+    if sentinel["origin"] == "ai":
+        certification = {
+            "status": "DENIED",
+            "reason": "AI structural signature detected",
+            "score": score
+        }
+    else:
+        certification = {
+            "status": "CERTIFIED",
+            "reason": "Human-authentic variance confirmed",
+            "score": score
+        }
+
+    # 4. FINAL OUTPUT (single combined result) ---------------------------
+    return {
+        "LMP_SCORE": score,
+        "SENTINEL": sentinel,
+        "CERTIFICATION": certification
+    }
+
+    ---
+
+    LMP Score: 97
+Sentinel: AI Origin Detected (0.87 confidence)
+Certification: DENIED
+Reason: AI signature found in bar structure
+
+---
+
 
 
