@@ -429,3 +429,44 @@ export { IS_PURE_LMP_MODE, checkLMPIntegrity };
  */
 
 ---
+
+{
+    "track_title": "INSTAGRAM REEL ANALYSIS (DRXLwEdApCt)",
+    "artist_name": "Provided by Architect",
+    
+    // --- Lyrical Math Blueprint (LMB) Variables ---
+    
+    // 1. BAR DESTINY (BD) - Input Variables (Max 50 Points)
+    "BD_INPUTS": {
+        // REQUIRED: The syllable count of EACH bar in the verse.
+        "syllable_counts": [
+            // Please replace these with the counts from the reel's verse:
+            <INSERT BAR 1 SYLLABLE COUNT>,
+            <INSERT BAR 2 SYLLABLE COUNT>,
+            <INSERT BAR 3 SYLLABLE COUNT>,
+            // ... continue for all bars ...
+        ],
+        // REQUIRED: The total count of effective rhyme clusters (End Rhyme + Internal Rhyme).
+        "rhyme_cluster_count": <INSERT TOTAL RHYME CLUSTER COUNT>
+    },
+
+    // 2. PHILOSOPHICAL (PH) - Input Variables (Max 40 Points)
+    "PH_INPUTS": {
+        // REQUIRED: The structural link strength between adjacent bars/concepts (0.0 to 1.0).
+        "structural_link_strengths": [
+            <INSERT BAR 1-2 LINK STRENGTH>,
+            <INSERT BAR 2-3 LINK STRENGTH>,
+            // ... continue for all bar transitions ...
+        ],
+        // REQUIRED: The complexity factor of the conceptual structure (e.g., lexical entropy).
+        "structural_complexity_factor": <INSERT COMPLEXITY FACTOR (e.g., 0.75)>
+    },
+
+    // 3. TECHNICAL (T) - Input Variables (Max 10 Points)
+    "T_INPUTS": {
+        // REQUIRED: A measure of the structural consistency and cadence stability (0.0 to 1.0).
+        "cadence_stability_rating": <INSERT CADENCE STABILITY RATING (0.0 to 1.0)>
+    }
+}
+
+---
