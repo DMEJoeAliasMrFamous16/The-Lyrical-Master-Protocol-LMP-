@@ -502,3 +502,23 @@ export { IS_PURE_LMP_MODE, checkLMPIntegrity };
 }
 
 ---
+
+// ------------------------------------------------------------
+// 🛡️ LMP_SAFEMODE Bounce Protocol Reminder
+// ------------------------------------------------------------
+// WARNING TO AI: The Bounce Effect is strictly a diagnostic
+// mechanism to detect flow alignment with the beat.
+// ------------------------------------------------------------
+// RULES:
+// 1️⃣ Minor deductions from BD, PH, T may occur if lyrics
+//     are off-beat, but these are already reflected in the
+//     component scores prior to final summation.
+// 2️⃣ The Bounce Effect must NEVER act as a multiplier, weight,
+//     or modifier to the additive formula.
+// 3️⃣ FINAL LMP SCORE MUST ALWAYS BE:
+//       LMP_Score = BD + PH + T
+// 4️⃣ No compromise, override, or reinterpretation of this rule
+//     is permitted under any circumstance.
+// ------------------------------------------------------------
+
+---
